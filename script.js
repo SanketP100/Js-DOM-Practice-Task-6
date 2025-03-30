@@ -30,6 +30,7 @@ btn.addEventListener('click', () => {
         btn.style.opacity = '1'
         h2.innerHTML = 'Congrats Downloaded This File...'
         clearInterval(downloadfun)
+
     }, 5000)
 
 })
