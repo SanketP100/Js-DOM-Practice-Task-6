@@ -1,0 +1,75 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+main {
+    height: 100%;
+    width: 100%;
+    background: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#card {
+    /* height: 10vw; */
+    /* width: 30vw; */
+    background-color: rgb(50, 33, 71);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3vw 6vw;
+    border-radius: 20px;
+}
+
+#card h3 {
+    margin-top: 10px;
+    margin-left: 90%;
+    font-size: 1.5vw;
+    margin-bottom: 5px;
+    display: none;
+}
+
+#card #progressBar {
+    height: 8px;
+    width: 400px;
+    background-color: #ddd;
+    border-radius: 50px;
+    overflow: hidden;
+    display: none;
+}
+
+#progressBar #progress {
+    height: 100%;
+    width: 0%;
+    background-color: #11a41d;
+}
+
+#card button {
+    padding: .5vw 3vw;
+    background-color: #0c9b18;
+    color: #fff;
+    font-size: 1.5vw;
+    font-weight: 600;
+    border-radius: 50px;
+    border: 1px solid #000;
+    transition: all ease .1s;
+    margin: auto;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+#card button:active {
+    scale: 0.95;
+}
