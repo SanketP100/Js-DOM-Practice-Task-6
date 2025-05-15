@@ -1,1 +1,1 @@
-Live Task: https://sanketp100.github.io/JS-DOM-practice-Task-6/
+Live Task: https://sanketp100.github.io/Js-DOM-Practice-Task-6/
